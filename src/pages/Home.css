@@ -1,0 +1,28 @@
+.home-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-banner {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.home-gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-gallery img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .home-gallery img {
+    width: 100%;
+  }
+}
